@@ -1,0 +1,28 @@
+.sidebar {
+    width: 200px;
+    height: 210px;
+    padding: 30px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+    &__exit {
+        margin-top: 30px;
+        width: 50px;
+        height: 30px;
+        border: none;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    &__element {
+        color: black !important;
+        text-decoration: none !important;
+        margin-top: 10px;
+
+        &--active {
+            font-weight: 800;
+        }
+    }
+}

@@ -1,0 +1,44 @@
+.login-page {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+
+    &__input-block {
+        margin-top: 10px;
+        width: 260px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__input {
+        font-size: 16px;
+        border: 1px solid grey;
+
+        &--error {
+            border: 1px solid red;
+        }
+    }
+
+    &__save-button {
+        margin-top: 20px;
+        width: 60px;
+        height: 25px;
+        cursor: pointer;
+        background: white;
+        font-size: 16px;
+        border-radius: 3px;
+
+        &:active {
+            background-color: black;
+            color: white;
+        }
+    }
+
+    &__err-message {
+        margin-top: 10px;
+        color: red;
+        width: 260px;
+        word-break: break-word;
+    }
+}

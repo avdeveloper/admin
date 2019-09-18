@@ -1,0 +1,43 @@
+.nav-tabs .nav-item {
+    cursor: pointer;
+}
+
+.forms-page {
+    padding-top: 30px;
+
+    &__input-block {
+        margin-top: 10px;
+        width: 290px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__input {
+        font-size: 16px;
+        border: 1px solid grey;
+
+        &--error {
+            border: 1px solid red;
+        }
+    }
+
+    &__save-button {
+        width: 60px;
+        height: 25px;
+        margin-top: 20px;
+        cursor: pointer;
+        background: white;
+        font-size: 16px;
+        border-radius: 3px;
+
+        &:active {
+            background-color: black;
+            color: white;
+        }
+    }
+
+    &__err-message {
+        margin-top: 10px;
+        color: red;
+    }
+}

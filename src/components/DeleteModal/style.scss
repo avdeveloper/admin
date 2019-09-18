@@ -1,0 +1,46 @@
+.modal {
+    &__content {
+        text-align: center;
+    }
+
+    &__text {
+        display: block;
+        padding: 30px 30px 0 30px;
+    }
+
+    &__buttons-block {
+        width: 100px;
+        display: flex;
+        margin: 20px auto 20px auto;
+        justify-content: space-between;
+    }
+
+    &__button {
+        width: 90px;
+        height: 35px;
+        margin-right: 20px;
+        cursor: pointer;
+        background: white;
+        font-size: 16px;
+        border-radius: 3px;
+
+        &:active {
+            background-color: black;
+            color: white;
+        }
+    }
+
+    &__deleting {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color: rgba(128,128,128, 0.4);
+
+        &--hide {
+            display: none;
+        }
+    }
+}
