@@ -1,3 +1,23 @@
+To start the project, install the necessary packages:
+
+### `npm install`
+
+In the project directory, you can run:
+
+### `npm start`
+
+Project starts on http://localhost:3000/
+
+For build project run:
+
+### `npm run build`
+
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
